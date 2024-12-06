@@ -1,5 +1,5 @@
 import { Middleware, MiddlewareAPI } from '@reduxjs/toolkit';
-import { createOrder, resetConstructor } from '@slices';
+import { createOrder, resetConstructor } from '../slices';
 import { AppDispatch, RootState } from '@store';
 
 const core: Middleware =

@@ -12,10 +12,10 @@ import {
   logoutApi,
   registerUserApi,
   updateUserApi
-} from '@api';
+} from '../../../utils/burger-api';
 
 import { TUser } from '@utils-types';
-import { clearTokens, storeTokens } from '@authorization';
+import { clearTokens, storeTokens } from '../../../utils/authorization';
 
 type TUserState = {
   isAuthChecked: boolean;
